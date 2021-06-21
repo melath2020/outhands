@@ -64,4 +64,5 @@ $route['edit/(:any)']='AdminControler/edit/$1';
 $route['update/(:any)'] = 'AdminControler/update/$1';
 $route['editadmin'] = 'AdminControler/editadmin';
 $route['google_login']='Google_login/google_login';
+$route['delete/(:any)']='AdminControler/delete/$1';
 
